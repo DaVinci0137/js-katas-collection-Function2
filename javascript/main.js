@@ -24,11 +24,9 @@ console.log(power(3, 4));
 
 function factorial(x) {
     let answer = 1
-    for (let i = 0; i > x, i++) {
-        answer = multiply(x, answer)
+    for (let i = 1; i <= x; i++) {
+        answer = multiply(i, answer)
     }
     return answer
 }
-console.log(factorial(4));
-
-
+console.log(factorial(5));
